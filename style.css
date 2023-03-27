@@ -1,0 +1,112 @@
+html {
+    height: 100%;
+}
+
+body {
+    /*background-color: #191932;*/
+    background-image: url(./background-adare-restaurant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(22, 21, 21);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    height: 118px;
+    text-align: center;
+
+}
+nav {
+    background-color: rgba(8, 6, 6, 0.307);
+    /*height: 40px;*/
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+}
+main {
+   /* height: 400px;*/
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+footer {
+    background-color: rgba(12, 10, 11, 0.508);
+    height: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 84px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(157, 157, 187);
+}
+
+.maps {
+    padding-top: 100px;
+    margin-top: 200px;
+}
+
+.btn { 
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    background-color: rgb(38, 128, 170);
+    color: rgb(245, 8, 214);
+    width: 250px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-color: rgb(137, 138, 154);
+    font-weight: 600;
+    border-radius: 22px;
+    letter-spacing: 4px;    
+    transition: 2s;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 50px 0 #00C2BA, 0 20px 100px 0 #00C2BA;
+    transition: 2s;
+}
+
